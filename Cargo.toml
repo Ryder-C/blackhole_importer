@@ -1,0 +1,15 @@
+[package]
+name = "blackhole_importer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+byte-unit = "5.1.6"
+clap = { version = "4.5.20", features = ["derive"] }
+confy = "0.6.1"
+crossterm = "0.28.1"
+magnet-url = "2.0.0"
+ratatui = "0.29.0"
+serde = { version = "1.0.214", features = ["derive"] }
+urlencoding = "2.1.3"
